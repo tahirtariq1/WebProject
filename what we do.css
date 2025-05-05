@@ -1,0 +1,242 @@
+*{
+    margin: 0; 
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    }
+    header {
+    height: 15vh;
+    background: url(hero-bg.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    }
+    
+    
+    .heavy {
+    display: flex;
+    justify-content: space-between;
+    padding: 33px 40px;
+    align-items: center;
+    }
+    
+    .logo {
+    font-size: 1.7em;
+    font-weight: bold;
+    color: white;
+    }
+    
+    .navbar{
+    display: flex;
+    list-style: none;
+    gap: 90px;
+    }
+    
+    .navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    }
+    
+    .about{
+        background-color:white;
+        text-align: center;
+        padding: 80px 20px;
+      }
+      .about h2{
+        font-size: 2.5em;
+        font-weight: 700;
+        margin-bottom: 15px;
+        position: relative;
+      }
+      .about p{
+        font-size: 0.9rem;
+        font-weight: 700;
+        max-width: 850px;
+        margin: 0 auto 53px;
+        color: black;
+      }
+      .hello{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 50px;
+        position: relative;
+      }
+      h3{
+        position: relative;
+        top: 2rem;
+      }
+      .hii{
+        text-align: center;
+        width: 100px;
+      }
+      .image{
+        width: 100px;
+        height: 100px;
+        background-color: #222;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+      }
+      .image img {
+        width: 50px;
+        height: 50px;
+      }
+    .image:hover{
+        background-color: orange;
+    } 
+
+
+    .footer {
+        background-color: #232323;
+        color: white;
+        padding: 50px 20px 30px;
+      }
+      
+      
+      .delhi {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 40px;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+      
+      .zalmi h3 {
+        font-size: 23px;
+        margin-bottom: 15px;
+        display: inline-block;
+        padding-bottom: 5px;
+        position: relative;
+        left: 2rem;
+      }
+      .information h3{
+        font-size: 24px;
+        margin-bottom: 15px;
+        display: inline-block;
+        padding-bottom: 5px;
+      }
+      .instah3{
+        font-size: 18px;
+        margin-bottom: 15px;
+        display: inline-block;
+        padding-bottom: 5px;
+      }
+      .new h3{
+        font-size: 20px;
+        margin-bottom: 15px;
+        display: inline-block;
+        padding-bottom: 5px;
+      }
+      
+      .zalmi p {
+        margin-bottom: 17px;
+        color: #ccc;
+        position: relative;
+        left: 2rem;
+        top: 2rem;
+        font-size: 1.1rem;
+      
+      }
+      .information p{
+        margin-bottom: 5px;
+        color: #ccc;
+        position: relative;
+        top: 2rem;
+        font-weight: 600;
+      }
+      .new input {
+        margin-bottom: 10px;
+        color: #ccc;
+      }
+      .new button {
+        margin-bottom: 10px;
+        color: #ccc;
+      }
+      
+      .new input {
+        width: 100%;
+        padding: 10px;
+        position: relative;
+        top: 1.6rem;
+        border: none;
+        border-radius: 2px;
+      }
+      
+      .new button {
+        background-color: orange;
+        border: none;
+        padding: 13px 28px;
+        color: white;
+        border: 1px solid orange;
+        border-radius: 2px;
+        cursor: pointer;
+        margin-top: 15px;
+        position: relative;
+        top: 1rem;
+      }
+      .new button:hover{
+        background-color: #232323;
+        color: orange;
+      }
+      
+      .unite {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        position: relative;
+        top: 1rem;
+      
+      
+      }
+      
+      .unite img {
+        width: 50%;
+        height: 6vh;
+        padding:  8px 12px;
+        border-radius: 1px;
+        background-color: whitesmoke;
+      position: relative;
+      top: 1.8rem;
+      }
+      .doll{
+        position: relative;
+        right: 3.9rem;
+      }
+      .little{
+        position: relative;
+        right: 3.9rem;
+      }
+      
+      .social{
+        margin-top: 15px;
+      }
+      
+      .social i {
+        margin-right: 10px;
+        font-size: 18px;
+        position: relative;
+        left: 0.5rem;
+        top: 1rem;
+        color: white;
+        cursor: pointer;
+      }
+      
+      .design {
+        text-align: center;
+        margin-top: 30px;
+        border-top: 1px solid white;
+        padding-top: 15px;
+        font-size: 22px;
+        color: white;
+        position: relative;
+        top: 0.8rem;
+        font-style: italic;
+        width: 40%;
+        position: relative;
+        left: 23rem;
+      }
